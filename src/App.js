@@ -1,21 +1,19 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { QueryClient, QueryClientProvider } from "react-query";
-import { ReactQueryDevtools } from "react-query/devtools";
+import Login from './components/Login/Login';
+import Register from './components/Login/Register';
 function App() {
-  const queryClient = new QueryClient();
   return (
-    <QueryClientProvider client={queryClient}>
       <Routes>
-        {/* <Route path="/" element={} />
-        <Route path="/login" element={} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        {/* 
         <Route path="/signup" element={} />
         <Route path="/detail/:id" element={} />
         <Route path="/addpost" element={} />
         <Route path="/mypage" element={} /> */}
       </Routes>
-    </QueryClientProvider>
   );
 }
 
