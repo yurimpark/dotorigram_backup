@@ -1,7 +1,16 @@
 import React from 'react';
-
+import TopNavbar from '../components/main/TopNavbar';
+import FeedList from '../components/main/FeedList';
+import BottomNavbar from '../components/main/BottomNavbar';
 const Mainpage = () => {
-  return <div>메인페이지입니다.</div>;
+  return (
+    <div className='w-100 mx-3'>
+      <TopNavbar />
+      {/* <StoryList /> */}
+      <FeedList />
+      <BottomNavbar />
+    </div>
+  );
 };
 
 export default Mainpage;
