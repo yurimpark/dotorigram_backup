@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from '../../static/img/logo.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import logo from "../../static/img/logo.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (

@@ -6,7 +6,7 @@ import { TbMessageCircle2 } from "react-icons/tb";
 
 function PostedContent() {
   return (
-    <div className="max-w-screen-sm">
+    <div className="mx-auto max-w-470">
       <div className="flex justify-around mx-3 mt-2">
         <Avatar src={profile} />
         <div className="basis-1/2 mt-1">yurimuahxx</div>
