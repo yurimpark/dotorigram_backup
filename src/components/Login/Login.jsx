@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from '../../static/img/logo.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import logo from "../../static/img/logo.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -28,7 +28,7 @@ const Login = () => {
           />
         </form>
         <span>
-          계정이 없으신가요?{' '}
+          계정이 없으신가요?{" "}
           <Link class="text-[#0095f6]" to="/register">
             가입하기
           </Link>
