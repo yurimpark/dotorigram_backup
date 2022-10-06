@@ -6,9 +6,12 @@ const Mainpage = () => {
   return (
     <div>
       <TopNavbar />
-      {/* <StoryList /> */}
-      <FeedList />
-      <FeedList />
+      <div className='py-12'>
+        {/* <StoryList /> */}
+        <FeedList />
+        <FeedList />
+        <FeedList />
+      </div>
       <BottomNavbar />
     </div>
   );
