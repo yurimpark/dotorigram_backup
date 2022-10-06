@@ -6,14 +6,14 @@ const FeedContent = () => {
   return (
     <div className='mx-3'>
       <div className='mt-2'>
-        <button>
+        <button className='mr-2'>
           <FavoriteBorderRoundedIcon className='text-xl' />
         </button>
         <button>
           <ChatBubbleOutlineOutlinedIcon className='text-xl' />
         </button>
       </div>
-      <div className='mt-2'>좋아요 3,690,234개</div>
+      <div className='mt-2 font-bold'>좋아요 3,690,234개</div>
       <div className='my-2'>
         <div className='font-bold inline-block float-left mr-2'>strongrabbit</div>
         <div>
