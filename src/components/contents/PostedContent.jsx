@@ -6,7 +6,7 @@ import { TbMessageCircle2 } from "react-icons/tb";
 
 function PostedContent() {
   return (
-    <div>
+    <div className="max-w-screen-sm">
       <div className="flex justify-around mx-3 mt-2">
         <Avatar src={profile} />
         <div className="basis-1/2 mt-1">yurimuahxx</div>
@@ -28,6 +28,10 @@ function PostedContent() {
           <TbMessageCircle2 className="text-3xl" />
         </button>
         <h1 className="text-gray-500 mt-3">10초 전</h1>
+
+        <div className="mt-2 mb-1">rabbit_zzang님 외 여러 명이 좋아합니다.</div>
+        <span className="font-bold mr-3">yurimuahxx</span>
+        <span className="mt-2">토끼는 깡총깡총</span>
       </div>
     </div>
   );
