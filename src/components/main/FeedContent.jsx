@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
+import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import ChatBubbleOutlineRoundedIcon from '@mui/icons-material/ChatBubbleOutlineRounded';
 
-import { AiOutlineHeart } from "react-icons/ai";
-import { TbMessageCircle2 } from "react-icons/tb";
 const FeedContent = () => {
   return (
     <div className='mx-3'>
@@ -11,7 +11,7 @@ const FeedContent = () => {
           <FavoriteBorderRoundedIcon className='text-xl' />
         </button>
         <button>
-          <ChatBubbleOutlineOutlinedIcon className='text-xl' />
+          <ChatBubbleOutlineRoundedIcon className='text-xl' />
         </button>
       </div>
       <div className='mt-2 font-bold'>좋아요 3,690,234개</div>
