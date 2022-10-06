@@ -4,10 +4,14 @@ import FeedList from '../components/main/FeedList';
 import BottomNavbar from '../components/main/BottomNavbar';
 const Mainpage = () => {
   return (
-    <div className='w-100'>
+    <div>
       <TopNavbar />
-      {/* <StoryList /> */}
-      <FeedList />
+      <div className='py-12'>
+        {/* <StoryList /> */}
+        <FeedList />
+        <FeedList />
+        <FeedList />
+      </div>
       <BottomNavbar />
     </div>
   );
