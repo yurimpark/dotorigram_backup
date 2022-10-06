@@ -3,9 +3,9 @@ import CloseIcon from '@material-ui/icons/Close';
 
 function ContentUpload() {
   return (
-    <div className='max-w-screen-sm '>
-      <div className='flex justify-between mt-2'>
-        <CloseIcon className='ml-5' />
+    <div className="max-w-screen-sm">
+      <div className="flex justify-between mt-2">
+        <CloseIcon className="ml-5" />
         <span>새로운 사진 게시물</span>
         <span className='text-blue-500 font-bold mr-5'>공유하기</span>
       </div>
