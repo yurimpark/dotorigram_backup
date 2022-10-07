@@ -6,6 +6,7 @@ import Login from './components/Login/Login';
 import Register from './components/Login/Register';
 import ContentUpload from './components/contents/ContentUpload';
 import PostedContent from './components/contents/PostedContent';
+import Mypage from './pages/Mypage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path='/' element={<Mainpage />} />
       <Route path='/contentupload' element={<ContentUpload />} />
       <Route path='/postedcontent' element={<PostedContent />} />
+      <Route path='/mypage' element={<Mypage />} />
     </Routes>
   );
 }
