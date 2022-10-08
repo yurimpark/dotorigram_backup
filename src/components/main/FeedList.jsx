@@ -2,6 +2,7 @@ import React from 'react';
 import ContentPhoto from './ContentPhoto';
 import FeedContent from './FeedContent';
 import Avatar from '@mui/material/Avatar';
+
 const FeedList = () => {
   return (
     <div className='border-2 rounded-lg mb-3 mx-auto max-w-470'>

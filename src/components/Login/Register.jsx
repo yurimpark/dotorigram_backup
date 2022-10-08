@@ -32,6 +32,7 @@ const Register = () => {
           />
           <input
             class="bg-[#0095f6] py-1 text-white rounded-[5px]"
+
             type="submit"
             value="가입"
           />
