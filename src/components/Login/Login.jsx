@@ -21,7 +21,8 @@ const Login = () => {
             placeholder="비밀번호"
           />
           <input
-            class="w-[16.875rem] mx-auto bg-[#0095f6] text-white h-4.5 rounded-[5px]"
+            class="w-[16.875rem] mx-auto py-1 bg-[#0095f6] text-white h-4.5 rounded-[5px]"
+
             type="submit"
             id="logins"
             value="로그인"
