@@ -31,7 +31,7 @@ const Register = () => {
             placeholder="비밀번호"
           />
           <input
-            class="bg-[#0095f6] text-white rounded-[5px]"
+            class="bg-[#0095f6] py-1 text-white rounded-[5px]"
             type="submit"
             value="가입"
           />
