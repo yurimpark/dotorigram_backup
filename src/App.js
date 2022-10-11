@@ -4,10 +4,10 @@ import { Route, Routes } from 'react-router-dom';
 import Mainpage from './pages/Mainpage';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import ContentUpload from './components/contents/ContentUpload';
-import PostedContent from './components/contents/PostedContent';
+import ContentUpload from './pages/ContentUpload';
+import PostedContent from './pages/PostedContent';
 import Mypage from './pages/Mypage';
-import CommentsBox from './components/contents/CommentsBox';
+import CommentsBox from './pages/CommentsBox';
 
 function App() {
   return (

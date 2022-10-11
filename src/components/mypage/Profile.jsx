@@ -7,8 +7,8 @@ import { useSelector } from 'react-redux';
 //마이페이지 프로필 전체
 
 const Profile = () => {
-  const user = useSelector((state) => state);
-  console.log(user);
+  const user = useSelector((state) => state.user.user);
+
   return (
     <div className='max-w-470 mx-auto flex'>
       <div className='mx-4'>
