@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../static/img/logo.png';
+import logo from '../static/img/logo.png';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
