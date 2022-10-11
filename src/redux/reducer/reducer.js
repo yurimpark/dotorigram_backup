@@ -1,23 +1,17 @@
 let initialState = {
-  id: '',
-  password: '',
-  auth: false,
+  user: '',
 };
 
-function authReducer(state = initialState, action) {
+function reducer(state = initialState, action) {
   let { type, payload } = action;
   switch (type) {
-    case 'LOGIN_SUCCESS':
-      console.log('와앙웅');
-      return {
-        ...state,
-        id: payload.id,
-        password: payload.password,
-        auth: true,
-      };
+    case 'USER_NAME':
+      state.user = payload.user;
+      // console.log(payload.user);
+      break;
     default:
       return { ...state };
   }
 }
 
-export default authReducer;
+export default reducer;
