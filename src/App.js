@@ -7,6 +7,7 @@ import Register from './components/Login/Register';
 import ContentUpload from './components/contents/ContentUpload';
 import PostedContent from './components/contents/PostedContent';
 import Mypage from './pages/Mypage';
+import CommentsBox from './components/contents/CommentsBox';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/register' element={<Register />} />
       <Route path='/contentupload' element={<ContentUpload />} />
       <Route path='/postedcontent' element={<PostedContent />} />
+      <Route path='/commentsbox' element={<CommentsBox />} />
       <Route path='/mypage' element={<Mypage />} />
     </Routes>
   );
