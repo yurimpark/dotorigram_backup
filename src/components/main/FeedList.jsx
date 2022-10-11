@@ -10,7 +10,7 @@ const FeedList = () => {
         <h2 className='basis-1/8'>
           <Avatar alt='Remy Sharp' src='/static/images/avatar/1.jpg' />
         </h2>
-        <div className='basis-1/2'>닉네임</div>
+        <div className='basis-1/2'></div>
         <div className='flex justify-around basis-1/3'>
           <button className='basis-1/2'>수정</button>
           <button className='basis-1/2'>삭제</button>

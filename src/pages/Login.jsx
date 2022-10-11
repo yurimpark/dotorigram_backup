@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../static/img/logo.png';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
@@ -12,7 +12,7 @@ const Login = () => {
   const submitId = (e) => {
     e.preventDefault();
     dispatch({ type: 'USER_NAME', payload: { user } });
-    console.log(user);
+    navigate('/');
   };
   return (
     <div className='flex flex-col h-screen justify-center items-center'>
@@ -32,7 +32,9 @@ const Login = () => {
             type='password'
             placeholder='비밀번호'
           />
-          <input className='w-[16.875rem] mx-auto py-1 bg-[#0095f6] text-white h-4.5 rounded-[5px]' type='submit' id='logins' value='로그인' />
+          <button className='w-[16.875rem] mx-auto py-1 bg-[#0095f6] text-white h-4.5 rounded-[5px]' type='submit' id='logins'>
+            로그인
+          </button>
         </form>
         <span className='block text-center'>
           계정이 없으신가요?
