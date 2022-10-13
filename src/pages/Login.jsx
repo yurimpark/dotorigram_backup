@@ -8,7 +8,7 @@ import {signInWithEmailAndPassword} from 'firebase/auth';
 import {getDocs, where, query, collection} from 'firebase/firestore';
 
 
-const Login = () => {
+const Login = ({setAuthenticate}) => {
   const [id, setId] = useState('');
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -34,6 +34,7 @@ const Login = () => {
   const submitId = (e) => {
     e.preventDefault();
     dispatch({ type: 'USER_NAME', payload: { id } });
+    setAuthenticate(true);
     navigate('/');
   };
   return (
